@@ -1,0 +1,493 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+	.menu li {
+		padding-left: 35px;
+	}
+
+	.carousel-caption h2 {
+		font-size: 40px;
+		color: #190811;
+		text-transform: uppercase;
+		margin: 0;
+		padding: 0;
+	}
+
+	.carousel-caption h4 {
+		font-size: 28px;
+		color: #FFFFFF;
+		text-transform: uppercase;
+		margin: 0;
+		padding: 0;
+	}
+
+	.btn_sl {
+		font-family: "MyriadProRegular", sans-serif;
+		font-size: 16px;
+		padding: 8px 15px;
+		border: 1px solid #FFFFFF;
+		margin-top: 2%;
+	}
+	
+	.contact p {
+		margin-top: 30px;
+	}
+
+	ul.social {
+		margin-top: 30px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+	nav {
+		height: 60px;
+		line-height: 60px;
+		position: fixed;
+	}
+
+	.logo {
+		padding-top: 10px;
+	}
+/*
+	.menu_btn {
+		height: 40px;
+		width: 40px;
+		border-radius: 50%;
+		background-color: #190811;
+	}
+*/
+	.navbar-toggle {
+		padding: 0;
+		margin: 0;
+		border: none;
+		top: 4px;
+		right: 20px;
+	}
+
+	.menu_btn i {
+		font-size: 30px;
+		color: #190811;
+	}
+
+	#top_menu {
+		background-color: #EEEEEE;
+		border-top: 1px solid #190811;
+	}
+
+	.menu li {
+		display: block;
+		text-align: center;
+		padding-left: 0;
+	}
+
+	.menu li a {
+		display: block;
+	}
+
+	.menu li a:hover {
+		background-color: #FFFFFF;
+	}
+
+	.carousel {
+		top: 30px;
+	}
+
+	.block-search {
+		height: 60px;
+		padding-top: 5px;
+	}
+
+	.block-search .btn_hidden,
+	.block-search .inp_hidden {
+		visibility: hidden;
+	}
+
+	.block-search .small-search {
+		visibility: visible;
+		position: relative;
+		top: -95px;
+		border: 3px solid #FFFFFF;
+	}
+
+	.block-search .small-input {
+		background-color: rgba(238, 238, 238, 0.0);
+		border: none;
+		padding: 0;
+	}
+
+	.block-search .small {
+		background-color: rgba(238, 238, 238, 0.7);
+	}
+
+	.block-search .small-btn {
+		background-color: rgba(238, 238, 238, 0.0);
+		font-family: "LeelawadeeBold", sans-serif;
+		font-size: 22px;
+		line-height: 1;
+		color: #771C2F;
+		border: none;
+		padding: 0 10px;
+	}
+
+	.carousel-caption h2 {
+		font-size: 32px;
+		color: #190811;
+		text-transform: uppercase;
+		margin: 0;
+		padding: 0;
+	}
+
+	.carousel-caption h4 {
+		font-size: 22px;
+		color: #FFFFFF;
+		text-transform: uppercase;
+		margin: 0;
+		padding: 0;
+	}
+
+	.btn_sl {
+		font-family: "MyriadProRegular", sans-serif;
+		font-size: 12px;
+		padding: 5px 10px;
+		border: 1px solid #FFFFFF;
+		margin-top: 2%;
+	}
+
+
+
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	nav {
+		height: 60px;
+		line-height: 60px;
+		position: fixed;
+	}
+
+	.logo {
+		padding-top: 10px;
+	}
+/*
+	.menu_btn {
+		height: 40px;
+		width: 40px;
+		border-radius: 50%;
+		background-color: #190811;
+	}
+*/
+	.navbar-toggle {
+		padding: 0;
+		margin: 0;
+		border: none;
+		top: 4px;
+		right: 20px;
+	}
+
+	.menu_btn i {
+		font-size: 30px;
+		color: #190811;
+	}
+
+	#top_menu {
+		background-color: #EEEEEE;
+		border-top: 1px solid #190811;
+	}
+
+	.menu li {
+		display: block;
+		text-align: center;
+		padding-left: 0;
+	}
+
+	.menu li a {
+		display: block;
+	}
+
+	.menu li a:hover {
+		background-color: #FFFFFF;
+	}
+
+	.block-search {
+		height: 60px;
+		padding-top: 5px;
+	}
+
+	.block-search .btn_hidden,
+	.block-search .inp_hidden {
+		visibility: hidden;
+	}
+
+	.block-search .small-search {
+		visibility: visible;
+		position: relative;
+		top: -95px;
+		border: 3px solid #FFFFFF;
+	}
+
+	.block-search .small-input {
+		background-color: rgba(238, 238, 238, 0.0);
+		border: none;
+		padding: 0;
+	}
+
+	.block-search .small {
+		background-color: rgba(238, 238, 238, 0.7);
+	}
+
+	.block-search .small-btn {
+		background-color: rgba(238, 238, 238, 0.0);
+		font-family: "LeelawadeeBold", sans-serif;
+		font-size: 22px;
+		line-height: 1;
+		color: #771C2F;
+		border: none;
+		padding: 0 10px;
+	}
+
+	.carousel-caption h2 {
+		font-size: 16px;
+		color: #190811;
+		text-transform: uppercase;
+		margin: 0;
+		padding: 0;
+	}
+
+	.carousel-caption h4 {
+		font-size: 14px;
+		color: #FFFFFF;
+		text-transform: uppercase;
+		margin: 0;
+		padding: 0;
+	}
+
+	.btn_sl {
+		font-family: "MyriadProRegular", sans-serif;
+		font-size: 12px;
+		padding: 3px 10px;
+		border: 1px solid #FFFFFF;
+		margin-bottom: 5%;
+		margin-top: 2%
+	}
+
+	.contact p {
+		font-family: "LeelawadeeRegular", sans-serif;
+		font-size: 10px;
+		margin-top: 50px;
+	}	
+
+	.social i {
+		width: 25px;
+		height: 25px;
+		font-size: 14px;
+		padding-top: 5px;
+	}
+
+	.contact p {
+		margin-top: 30px;
+	}
+
+	.contact .map {
+		height: 200px;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+	nav {
+		height: 60px;
+		line-height: 60px;
+		position: fixed;
+	}
+
+	.logo {
+		padding-top: 10px;
+	}
+/*
+	.menu_btn {
+		height: 40px;
+		width: 40px;
+		border-radius: 50%;
+		background-color: #190811;
+	}
+*/
+	.navbar-toggle {
+		padding: 0;
+		margin: 0;
+		border: none;
+		top: 4px;
+		right: 20px;
+	}
+
+	.menu_btn i {
+		font-size: 30px;
+		color: #190811;
+	}
+
+	#top_menu {
+		background-color: #EEEEEE;
+		border-top: 1px solid #190811;
+	}
+
+	.menu li {
+		display: block;
+		text-align: center;
+		padding-left: 0;
+	}
+
+	.menu li a {
+		display: block;
+	}
+
+	.menu li a:hover {
+		background-color: #FFFFFF;
+	}
+
+	.block-search {
+		height: 60px;
+		padding-top: 5px;
+	}
+
+	.block-search .btn_hidden,
+	.block-search .inp_hidden {
+		visibility: hidden;
+	}
+
+	.block-search .small-search {
+		visibility: visible;
+		position: relative;
+		top: -95px;
+		border: 3px solid #FFFFFF;
+	}
+
+	.block-search .small-input {
+		background-color: rgba(238, 238, 238, 0.0);
+		border: none;
+		padding: 0;
+	}
+
+	.block-search .small {
+		background-color: rgba(238, 238, 238, 0.7);
+	}
+
+	.block-search .small-btn {
+		background-color: rgba(238, 238, 238, 0.0);
+		font-family: "LeelawadeeBold", sans-serif;
+		font-size: 22px;
+		line-height: 1;
+		color: #771C2F;
+		border: none;
+		padding: 0 10px;
+	}
+
+	.carousel-caption h2 {
+		font-size: 16px;
+		color: #190811;
+		text-transform: uppercase;
+		margin: 0;
+		padding: 0;
+	}
+
+	.carousel-caption h4 {
+		font-size: 14px;
+		color: #FFFFFF;
+		text-transform: uppercase;
+		margin: 0;
+		padding: 0;
+	}
+
+	.btn_sl {
+		font-family: "MyriadProRegular", sans-serif;
+		font-size: 12px;
+		padding: 3px 10px;
+		border: 1px solid #FFFFFF;
+		margin-bottom: 5%;
+		margin-top: 2%
+	}
+
+	.contact p {
+		font-family: "LeelawadeeRegular", sans-serif;
+		font-size: 10px;
+		margin-top: 50px;
+	}	
+
+	.social i {
+		width: 25px;
+		height: 25px;
+		font-size: 14px;
+		padding-top: 5px;
+	}
+
+	.contact p {
+		margin-top: 30px;
+	}
+
+	.contact .map {
+		height: 200px;
+	}
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
